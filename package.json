@@ -1,0 +1,34 @@
+{
+  "name": "tree-sitter-lang",
+  "version": "0.0.1",
+  "description": "Tree-sitter-grammar for lang",
+  "main": "index.js",
+  "scripts": {
+    "test": "tree-sitter test",
+    "gen": "tree-sitter generate",
+    "gentsdef": "node ./script/generateTSDefinition.js",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<user>/tree-sitter-lang.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "lang",
+    "grammar"
+  ],
+  "author": "<User> <user@email.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<user>/tree-sitter-lang/issues"
+  },
+  "homepage": "https://github.com/<user>/tree-sitter-lang#readme",
+  "dependencies": {
+    "nan": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "tree-sitter-cli": "^0.18.0"
+  }
+}

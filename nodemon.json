@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "grammar.js",
+    "src/scanner.cc",
+    "src/scanner.c",
+    "test/corpus/*.txt"
+  ],
+  "ext": "txt,js,c",
+  "exec": "tree-sitter generate && tree-sitter test -f \"basic-test\""
+}

@@ -1,0 +1,5 @@
+script
+build
+log.txt
+compile_flags.txt
+.vscode
